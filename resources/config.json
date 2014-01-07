@@ -1,0 +1,18 @@
+{
+    "activityStream": "0",
+    "blog.url.en_US": "http://blog.site.com/en/site/feed/",
+    "defaultCurrency": "EUR",
+    "defaultLocale": "en_US",
+    "favicon": "favicon-site.ico",
+    "hostName": "https://site.com",
+    "imagesHostName": "images.site.com",
+    "locales": ["en_US", "de_DE", "nl_NL", "es_ES", "pt_BR","fr_FR", "it_IT"],
+    "loginURL": "/login",
+    "logo": "logo.jpg",
+    "logoutURL": "http://www.site.com/us/",
+    "name": "site",
+    "session.cookie_domain": "",
+    "supportEmail": "support@site.com",
+    "twitter": "https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=site_twitter",
+    "wiki": "http://help.site.com/"
+}
