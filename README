@@ -1,1 +1,6 @@
-branding service implemented in vert.x
+simple service implemented in vert.x 
+
+
+Provides an http response with data readed from the config.json file
+when http://hostname/config url is accessed.
+
