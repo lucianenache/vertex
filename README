@@ -2,5 +2,5 @@ simple service implemented in vert.x
 
 
 Provides an http response with data readed from the config.json file
-when http://hostname/config url is accessed.
+when http://hostname:8080/config url is accessed.
 
