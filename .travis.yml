@@ -1,9 +1,4 @@
-deploy:
-  provider: openshift
-  user: enache.lucian@europe.com
-  password:
-    secure: D+q65D72kcXG+tPEsUxpg+/PCaeBKurhT//I4OTod/PcHoc0Mt+Ybd7e7OO4Bp8wf7V7dpkdU7gtshljAkhkcTj7YUqw/85vMIXiHtAMuUHnbt22MgtQGCsRtAs+jpRwhTf5Aus2eswdMo3fNRRXz6p7dwEFewpUI8VyckUMubs=
-  domain: corsibu.rhcloud.com
+
 language: java
 jdk:
 - oraclejdk7
