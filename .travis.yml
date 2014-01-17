@@ -1,7 +1,6 @@
 deploy:
   provider: heroku
-  api_key:
-    secure: ORQF4O8SVqkqkmoWnUFkUHhpDZx7E2kVx3PXJdqDn6R5HgTMGLLdRBfyMGneJSUtwJO0hB7Txj7QIsQZvqme2klCtFsJTBIeKQ4NiLUHbmNLZOmQ6HjMtNArfRi4Aws4GfKcwqiVLgs3ysigtFJZP0H5hqGP0fKicmv4hTc3FKk=
+  secure: ORQF4O8SVqkqkmoWnUFkUHhpDZx7E2kVx3PXJdqDn6R5HgTMGLLdRBfyMGneJSUtwJO0hB7Txj7QIsQZvqme2klCtFsJTBIeKQ4NiLUHbmNLZOmQ6HjMtNArfRi4Aws4GfKcwqiVLgs3ysigtFJZP0H5hqGP0fKicmv4hTc3FKk=
 language: java
 jdk:
 - oraclejdk7
