@@ -1,9 +1,9 @@
-package com.zanox.brandingservice; /**
+package com.vertex.staticservice; /**
  *
  * User: lucian.enache
  * Date: 12/14/13
  * Time: 2:54 PM
- * Reads the zanox.json file inside the properties folder and returns
+ * Reads the config.json file inside the properties folder and returns
  * it's content in path../brand otherwise it just shoots an 404.
  */
 
@@ -31,7 +31,7 @@ public class HttpVertex extends Verticle {
                     logger.debug("--->/res url has been called<---");
 
                     try {
-                        logger.debug("--->opening /zanox.json resource stream<---");
+                        logger.debug("--->opening /config.json resource stream<---");
 
                         InputStream input = HttpVertex.class.getResourceAsStream("/config.json");
                         brand = convertStreamToString(input);
