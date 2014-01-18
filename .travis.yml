@@ -5,9 +5,7 @@ jdk:
 - openjdk6
 deploy:
   provider: heroku
-    global:
-       - secure: WdySB/+TTyDSDKWxkyH5R0oSJxUjXMA/fbnopWd9mUwgjaBG02j0a1CoVoaEmEquVLw7ezBtVLiCp0j9XK1V5r+g/X4XCPQodALerM/LzVBy0SrRXM0q1oXnQeghjqTyntJmduUgcOTu+3gXoTiFzIR4ZhSEzXHrLkaW/6oZXLE=
-       - TIMEOUT=1000
+  secure: WdySB/+TTyDSDKWxkyH5R0oSJxUjXMA/fbnopWd9mUwgjaBG02j0a1CoVoaEmEquVLw7ezBtVLiCp0j9XK1V5r+g/X4XCPQodALerM/LzVBy0SrRXM0q1oXnQeghjqTyntJmduUgcOTu+3gXoTiFzIR4ZhSEzXHrLkaW/6oZXLE=
   app: vertex
   on:
     repo: lucianenache/vertex
