@@ -10,5 +10,3 @@ deploy:
   on:
     repo: lucianenache/vertex
 
-   env:
-
