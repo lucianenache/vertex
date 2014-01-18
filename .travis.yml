@@ -3,10 +3,10 @@ jdk:
 - oraclejdk7
 - openjdk7
 - openjdk6
-deploy:
-  provider: heroku
-  secure: WdySB/+TTyDSDKWxkyH5R0oSJxUjXMA/fbnopWd9mUwgjaBG02j0a1CoVoaEmEquVLw7ezBtVLiCp0j9XK1V5r+g/X4XCPQodALerM/LzVBy0SrRXM0q1oXnQeghjqTyntJmduUgcOTu+3gXoTiFzIR4ZhSEzXHrLkaW/6oZXLE=
-  app: vertex
-  on:
-    repo: lucianenache/vertex
+#deploy:
+#  provider: heroku
+#  secure: WdySB/+TTyDSDKWxkyH5R0oSJxUjXMA/fbnopWd9mUwgjaBG02j0a1CoVoaEmEquVLw7ezBtVLiCp0j9XK1V5r+g/X4XCPQodALerM/LzVBy0SrRXM0q1oXnQeghjqTyntJmduUgcOTu+3gXoTiFzIR4ZhSEzXHrLkaW/6oZXLE=
+#  app: vertex
+#  on:
+#    repo: lucianenache/vertex
 
